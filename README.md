@@ -45,7 +45,7 @@ Hydra Renderer is propbably is what you are looking for.
      
      https://github.com/Ray-Tracing-Systems/HydraCore 
      
-     It uses OpenCL (so it runs on Nvidia, AMD and late Intel GPUs and on CPUs too). It's OS independent. So we succesfully used it under Linux and Windows. It fast and robust to complex lighting phenomena due to bidirectional path tracing and Metropolis Light Transport algorithms that are implemented completely on GPU.
+     It uses OpenCL (so it runs on Nvidia, AMD and late Intel GPUs and on CPUs too). It's OS independent. So we succesfully used it under Linux and Windows. It is fast and robust for complex lighting phenomena due to GPU optimised Bidirectional Path Tracing and Metropolis Light Transport algorithms.
 
 ## HOW Hydra Renderer works
 
