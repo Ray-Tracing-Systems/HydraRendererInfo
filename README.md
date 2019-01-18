@@ -40,12 +40,20 @@ Hydra Renderer is propbably is what you are looking for.
      
   3. **Rendering engine** (usually HydraCore, but you are supposed to make you own engines if you want).
   
-     Hydra supposed to have many rendering engines for real time or offline rendering. 
-     However currently we officially support single offline rendering engine called "HydraCore". 
+     Hydra is supposed to have many rendering engines for real time or offline rendering. 
+     However currently we officially support only offline rendering engine called "HydraCore". 
      
      https://github.com/Ray-Tracing-Systems/HydraCore 
      
      It uses OpenCL (so it runs on Nvidia, AMD and late Intel GPUs and on CPUs too). It's OS independent. So we succesfully used it under Linux and Windows. It is fast and robust for complex lighting phenomena due to GPU optimised Bidirectional Path Tracing and Metropolis Light Transport algorithms.
 
-## HOW Hydra Renderer works
+## HOW can i use Hydra Renderer
+
+   1. Download and build HydraAPI with Cmake or Visual Studio (yes, you don't have to use Cmake under Windows). https://github.com/Ray-Tracing-Systems/HydraAPI
+   
+   2. Install HydraCore (if under Linux you need to build it with Cmake). https://github.com/Ray-Tracing-Systems/HydraCore 
+   
+   3. Run samples from our non extisting SDK or run some tests from HydraAPI project (for example "test40_several_changes").
+   
+   We have C++ and Python API. If you need bindings for your language please let us know.
 
