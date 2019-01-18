@@ -16,10 +16,17 @@ If you need photo realistic rendering engine for your application that is:
 * Have well specified rendering models for materials and lights. Sou you can feed renderer with existing content. (TBD: this is in progress) 
 * Assume clear and transparent debugging during integration and customer development.
 
-Look At Hydra Renderer.
+Hydra Renderer is propbably is what you are looking for.
 
 ## WHAT is Hydra Renderer
 
+* 3-level abstraction solution.
+  1. You custom applications. 
+  2. HydraAPI. Agnostic intermediate layer between your application and rendering engine.
+  3. Rendering engine (usually HydraCore, but you are supposed to make you own engines if this is needed).
+  
+* Well specified (TBD) rendering engine.
 
-## HOW Hydra Renderer achive this
+
+## HOW Hydra Renderer works
 
