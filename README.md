@@ -4,7 +4,7 @@
 
 Hydra Renderer is a general purpose photo realistic rendering system. It is open source and free for commertial and non commetrial usage (under the most liberal MIT license). It can run both on CPUs and GPUs (however, GPUs are preferred). We position our system as one of the most efficient renderer in the world for complex light transport simulation phenomena. Our main advantages are bidirectional and Markov chain rendering algorithms, elaborated API and programmable shaders that allow you to integrate Hydra your custom application at low cost.   
 
-## WHY 
+## WHY use Hydra Renderer
 
 If you need photo realistic rendering engine for your application that is:
 
@@ -14,8 +14,12 @@ If you need photo realistic rendering engine for your application that is:
 * Reliable solution with customer support (sou you can be sure it works for your particular cases and needs).
 * Robust for complex light transport
 * Have well specified rendering models for materials and lights. Sou you can feed renderer with existing content. (TBD: this is in progress) 
+* Assume clear and transparent debugging during integration and customer development.
 
-## WHAT
+Look At Hydra Renderer.
 
-## HOW
+## WHAT is Hydra Renderer
+
+
+## HOW Hydra Renderer achive this
 
