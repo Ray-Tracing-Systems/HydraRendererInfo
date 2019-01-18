@@ -13,6 +13,7 @@ If you need photo realistic rendering engine for your application that is:
 * Free and Open Source
 * Reliable solution with customer support (sou you can be sure it works for your particular cases and needs).
 * Robust for complex light transport
+* Have well specified rendering models for materials and lights (TBD: this is in progress) 
 
 ## WHAT
 
