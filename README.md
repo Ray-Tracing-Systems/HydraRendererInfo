@@ -41,7 +41,7 @@ Hydra Renderer is propbably is what you are looking for.
   3. **Rendering engine** (usually HydraCore, but you are supposed to make you own engines if you want).
   
      Hydra supposed to have many rendering engines for real time or offline rendering. 
-     However currently we offitially support single offline rendering engine called "HydraCore". 
+     However currently we officially support single offline rendering engine called "HydraCore". 
      
      https://github.com/Ray-Tracing-Systems/HydraCore 
      
