@@ -53,7 +53,8 @@ Hydra Renderer is propbably is what you are looking for.
    
    2. Install HydraCore (if under Linux you need to build it with Cmake). https://github.com/Ray-Tracing-Systems/HydraCore 
    
-   3. Run samples from our non extisting SDK or run some tests from HydraAPI project (for example "test40_several_changes").
-   
-   We have C++ and Python API. If you need bindings for your language please let us know.
+   3. Run samples from our non extisting SDK or run some tests from HydraAPI project (for example "test40_several_changes")
+      We have C++ and Python API. If you need bindings for your language please let us know.
+      
+   4. Look through our feature spec pdf (TBD: add reference here) to figure out how to implement some feature in your application via Hydra Renderer. Or contact us if you have a questions.
 
