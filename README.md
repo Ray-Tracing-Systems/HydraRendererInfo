@@ -26,12 +26,12 @@ Hydra Renderer is propbably is what you are looking for.
   2. Agnostic intermediate layer between your application and rendering engine called "HydraAPI".
      This level is well specifiend and was carefully designed to fulfill concrete reqremens:
      
-     2.1. Interactivity. 
-     2.2. No restrictions on memory.
-     2.3. Parameters variability.
-     2.4. Serialization.
-     2.5. Debugging.
-     2.6. Distributed rendering.
+     1. Interactivity. 
+     2. No restrictions on memory.
+     3. Parameters variability.
+     4. Serialization.
+     5. Debugging.
+     6. Distributed rendering.
      
      By using Hydra API you can be sure that these reqremens will not be broken for existing or future rendering cores.
      This is achived by construction (TBD: reference our paper). 
