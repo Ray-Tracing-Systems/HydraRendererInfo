@@ -9,11 +9,11 @@ Hydra Renderer is a general purpose photo realistic rendering system. It is open
 If you need photo realistic rendering engine for your application that is:
 
 * Fast (TBD: reference our comparison with octane here)
-* Platform independt (Both OS and hardware)
+* Platform independent (Both OS and hardware independent)
 * Free and Open Source
 * Reliable solution with customer support (sou you can be sure it works for your particular cases and needs).
 * Robust for complex light transport
-* Have well specified rendering models for materials and lights (TBD: this is in progress) 
+* Have well specified rendering models for materials and lights. Sou you can feed renderer with existing content. (TBD: this is in progress) 
 
 ## WHAT
 
