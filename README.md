@@ -21,26 +21,25 @@ Hydra Renderer is propbably is what you are looking for.
 ## WHAT is Hydra Renderer
 
 * 3-level abstraction solution.
-  1. You custom application (for example Blender or 3ds Max plugin). It's yours.
+  1. **You custom application** (for example Blender or 3ds Max plugin). It's yours.
      Btw your 3ds Max and Blender plugins are both open source.
   
-  2. Agnostic intermediate layer between your application and rendering engine called "HydraAPI".
+  2. **Agnostic intermediate layer** between your application and rendering engine called "HydraAPI".
      This level is well specifiend and was carefully designed to fulfill concrete reqremens:
      
      1. Interactivity. You can add content (3d models, texture, materislas, shaders) quick and in a non blocking way.
      2. No restrictions on memory. You don't have to worry about memory. You "scene library" is supposed to exceed the available amount of RAM many times. 
-     3. Parameters variability and extensibility. By using HydraAPI you can pass any desired models (of materials, lights or material parameters via "texture shaders") inside engine. Enev such that is not yet supported by particular rendering engine.
-     4. Serialization.
-     5. Debugging.
-     6. Distributed rendering.
+     3. Parameters variability and extensibility. By using HydraAPI you can pass any desired models (of materials, lights or material parameters via "texture shaders") inside engine. Even such that is not yet supported by particular rendering engine.
+     4. Serialization. All adat is recorded to XML and can be dumped to files for various needs. 
+     5. Debugging. All input to API is recorded for each object and can be reoproduced without customer application for debugging or rendering purpose. However content loses editing ability. 
+     6. Distributed rendering. The API is constructed in such a way that it can track changes of scene between "Commit" operations. So, only changes are supposed to transfer over network.
      
      By using Hydra API you can be sure that these reqremens will not be broken for existing or future rendering cores.
      This is achived by API construction (TBD: reference our paper). 
      
-  3. Rendering engine (usually HydraCore, but you are supposed to make you own engines if you want).
+  3. **Rendering engine** (usually HydraCore, but you are supposed to make you own engines if you want).
   
 * Well specified (TBD) rendering engine.
-
 
 ## HOW Hydra Renderer works
 
