@@ -22,7 +22,7 @@ Hydra Renderer is propbably is what you are looking for.
 
 * 3-level abstraction solution.
   1. **You custom application** (for example Blender or 3ds Max plugin). It's yours.
-     Btw your 3ds Max and Blender plugins are both open source.
+     Btw our 3ds Max and Blender plugins are both open source.
   
   2. **Agnostic intermediate layer** between your application and rendering engine called "HydraAPI".
      This level is well specifiend and was carefully designed to fulfill concrete reqremens:
